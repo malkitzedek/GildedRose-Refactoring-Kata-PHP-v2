@@ -2,12 +2,12 @@
 
 namespace GildedRose;
 
-require_once __DIR__ . '/QualityHandler.php';
-require_once __DIR__ . '/LegendaryQualityHandler.php';
-require_once __DIR__ . '/ConjuredQualityHandler.php';
-require_once __DIR__ . '/AgedBrieQualityHandler.php';
-require_once __DIR__ . '/BackstagePassesQualityHandler.php';
-require_once __DIR__ . '/OrdinaryQualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'QualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'LegendaryQualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'ConjuredQualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'AgedBrieQualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'BackstagePassesQualityHandler.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'OrdinaryQualityHandler.php';
 
 class QualityHandlerProvider
 {
