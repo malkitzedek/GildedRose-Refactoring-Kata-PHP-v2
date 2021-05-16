@@ -24,7 +24,7 @@ final class GildedRose
      */
     public function updateQuality(): void
     {
-        require_once __DIR__ . '/QualityHandlerProvider.php';
+        require_once __DIR__ . DIRECTORY_SEPARATOR . 'QualityHandlerProvider.php';
 
         foreach ($this->items as $item) {
             $this->guardItemQualityLessThan50($item);
