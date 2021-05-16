@@ -9,7 +9,7 @@ final class GildedRose
     /**
      * @var Item[]
      */
-    private array $items;
+    private $items;
 
     /**
      * @param array $items
